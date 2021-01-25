@@ -1,0 +1,44 @@
+@import "./animation/right";
+
+.container{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+    height: 80vh;
+    animation: right 3s;
+
+    &-right{
+        
+        &-content{
+            padding:4rem;
+        }
+        &-text{
+            font-size:2rem;
+            list-style-type: none;
+            line-height: 3rem;
+            
+            &:not(:last-child){
+                margin-bottom: 3.2rem;
+            }
+        }
+
+    }
+    &-left{
+        
+            margin-left: 4rem;
+            .box{
+            border-radius: 50%;
+            box-shadow: 8px 2px 20px black;
+            background:linear-gradient(to right bottom,#2d2f41,#10131c );
+        }
+        img{
+            width:29rem;
+            height: 29rem;
+            border-radius: 50%;
+            background:linear-gradient(to right bottom,#2d2f41,#10131c );
+            
+        }
+    }
+}
