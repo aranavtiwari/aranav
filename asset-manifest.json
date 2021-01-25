@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/aranav/static/css/main.2a2c09a6.chunk.css",
+    "main.js": "/aranav/static/js/main.e34504c8.chunk.js",
+    "main.js.map": "/aranav/static/js/main.e34504c8.chunk.js.map",
+    "runtime-main.js": "/aranav/static/js/runtime-main.4f33a587.js",
+    "runtime-main.js.map": "/aranav/static/js/runtime-main.4f33a587.js.map",
+    "static/js/2.e523ee4d.chunk.js": "/aranav/static/js/2.e523ee4d.chunk.js",
+    "static/js/2.e523ee4d.chunk.js.map": "/aranav/static/js/2.e523ee4d.chunk.js.map",
+    "index.html": "/aranav/index.html",
+    "static/css/main.2a2c09a6.chunk.css.map": "/aranav/static/css/main.2a2c09a6.chunk.css.map",
+    "static/js/2.e523ee4d.chunk.js.LICENSE.txt": "/aranav/static/js/2.e523ee4d.chunk.js.LICENSE.txt",
+    "static/media/logo1.081d6d5f.svg": "/aranav/static/media/logo1.081d6d5f.svg",
+    "static/media/p1.2eebba60.png": "/aranav/static/media/p1.2eebba60.png",
+    "static/media/p2.d5b93623.png": "/aranav/static/media/p2.d5b93623.png",
+    "static/media/p3.e027b0af.png": "/aranav/static/media/p3.e027b0af.png",
+    "static/media/p4.1fbe9e2f.png": "/aranav/static/media/p4.1fbe9e2f.png",
+    "static/media/skilllogo.3cd236f5.png": "/aranav/static/media/skilllogo.3cd236f5.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4f33a587.js",
+    "static/js/2.e523ee4d.chunk.js",
+    "static/css/main.2a2c09a6.chunk.css",
+    "static/js/main.e34504c8.chunk.js"
+  ]
+}
