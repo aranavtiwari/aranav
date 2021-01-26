@@ -59,7 +59,12 @@
         margin: 3rem auto;
         width: 80%;
         border-radius: 2rem;
+        transition: none;
         
+        &:hover{
+            padding-top: 0;
+            
+        }
         
         &-link{
             flex-direction: column !important;
@@ -71,6 +76,7 @@
                 justify-content: center;
                 align-items: center;
                 margin: 0 auto;
+                transition: none;
             }
         }
         .hide{

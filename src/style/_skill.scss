@@ -13,6 +13,10 @@
         align-items: center;
         height: 100vh;
        
+        .box{
+            border-radius: 50%;
+            
+        }
 
         .img{
             animation:right 4.2s;
@@ -91,8 +95,9 @@
             height: 70vh;
             margin-top: 2rem;
             .img{
-                width: 50rem;
-                height: 50rem;
+                width: 30rem;
+                height: 30rem;
+                animation:none;
             }
         }
 

@@ -81,6 +81,11 @@ body {
     margin: 3rem auto;
     width: 80%;
     border-radius: 2rem;
+    -webkit-transition: none;
+    transition: none;
+  }
+  .nav:hover {
+    padding-top: 0;
   }
   .nav-link {
     -webkit-box-orient: vertical !important;
@@ -98,6 +103,8 @@ body {
         -ms-flex-align: center;
             align-items: center;
     margin: 0 auto;
+    -webkit-transition: none;
+    transition: none;
   }
   .nav .hide {
     display: none !important;
@@ -192,6 +199,7 @@ body {
   }
   .container-left {
     margin-right: 0;
+    margin-top: 20rem;
   }
   .container-left img {
     width: 20rem;
@@ -223,6 +231,10 @@ body {
       -ms-flex-align: center;
           align-items: center;
   height: 100vh;
+}
+
+.skill-container .img-skill .box {
+  border-radius: 50%;
 }
 
 .skill-container .img-skill .img {
@@ -307,8 +319,10 @@ body {
     margin-top: 2rem;
   }
   .skill-container .img-skill .img {
-    width: 50rem;
-    height: 50rem;
+    width: 30rem;
+    height: 30rem;
+    -webkit-animation: none;
+            animation: none;
   }
   .skill-container .skill {
     -webkit-box-orient: vertical;
@@ -382,11 +396,24 @@ body {
   height: 100vh;
 }
 
+.project-img .box {
+  border-radius: 50%;
+}
+
 .project-img .img-logo {
   -webkit-animation: right 4.2s;
           animation: right 4.2s;
   width: 45rem;
   height: 30rem;
   margin: 0 auto;
+}
+
+@media (max-width: 750px) {
+  .project-img .img-logo {
+    -webkit-animation: none;
+            animation: none;
+    width: 30rem;
+    height: 30rem;
+  }
 }
 /*# sourceMappingURL=App.css.map */
