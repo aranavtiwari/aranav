@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/aranav/static/css/main.a08f94e6.chunk.css",
+    "main.css": "/aranav/static/css/main.700af0bb.chunk.css",
     "main.js": "/aranav/static/js/main.b1a651ae.chunk.js",
     "main.js.map": "/aranav/static/js/main.b1a651ae.chunk.js.map",
     "runtime-main.js": "/aranav/static/js/runtime-main.4f33a587.js",
@@ -8,7 +8,7 @@
     "static/js/2.97b7123d.chunk.js": "/aranav/static/js/2.97b7123d.chunk.js",
     "static/js/2.97b7123d.chunk.js.map": "/aranav/static/js/2.97b7123d.chunk.js.map",
     "index.html": "/aranav/index.html",
-    "static/css/main.a08f94e6.chunk.css.map": "/aranav/static/css/main.a08f94e6.chunk.css.map",
+    "static/css/main.700af0bb.chunk.css.map": "/aranav/static/css/main.700af0bb.chunk.css.map",
     "static/js/2.97b7123d.chunk.js.LICENSE.txt": "/aranav/static/js/2.97b7123d.chunk.js.LICENSE.txt",
     "static/media/logo1.081d6d5f.svg": "/aranav/static/media/logo1.081d6d5f.svg",
     "static/media/p1.2eebba60.png": "/aranav/static/media/p1.2eebba60.png",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.4f33a587.js",
     "static/js/2.97b7123d.chunk.js",
-    "static/css/main.a08f94e6.chunk.css",
+    "static/css/main.700af0bb.chunk.css",
     "static/js/main.b1a651ae.chunk.js"
   ]
 }
