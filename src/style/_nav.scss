@@ -3,9 +3,8 @@
 
 
 .nav{
-    display: flex;
-    justify-content: space-around;
     width: 700px;
+    cursor: pointer;
     background-color:$nav-bar ;
     padding:1rem 1.5rem;
     position: fixed;
@@ -17,8 +16,13 @@
     font-weight: 400;
     letter-spacing: -1.2px;
     transition: all 0.3s ease;
-    box-shadow: 0px 2px 20px rgba(7, 7, 7, 0.692);
+    box-shadow: 0px 2px 20px rgba(7, 7, 7, 0.692);   
 
+    &-link{
+        display: flex;
+        justify-content: space-around;
+        
+    }
     &:hover{
     padding-top: 2rem;
     }
@@ -38,5 +42,49 @@
         }
 
     }
+    .check{
+        display: none;
+    }
+
+}
+
+@media(max-width:770px){
+    .nav{
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left:0;
+        top:2rem;
+        margin-left:0;
+        margin: 3rem auto;
+        width: 80%;
+        border-radius: 2rem;
+        
+        
+        &-link{
+            flex-direction: column !important;
+
+
+            .link{
+                margin-bottom: 2rem;
+                padding: 1rem;
+                justify-content: center;
+                align-items: center;
+                margin: 0 auto;
+            }
+        }
+        .hide{
+            display: none !important;
+        }
+
+        .check{
+            display:initial;
+
+            font-size: 2rem;
+            
+        }
+
+    }
+
 
 }

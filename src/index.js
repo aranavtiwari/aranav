@@ -7,7 +7,7 @@ import App from './components/App';
 import "./App.css";
 
 ReactDOM.render(
-   <BrowserRouter>
+   <BrowserRouter basename={process.env.PUBLIC_URL}>
         <App/>
      </BrowserRouter>     
     ,

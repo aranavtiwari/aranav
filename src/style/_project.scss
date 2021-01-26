@@ -1,0 +1,16 @@
+.project{
+   
+    &-img{
+    
+        margin:0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        .img-logo{
+            width: 40rem;
+            height: 35rem;
+            margin: 0 auto; 
+        }
+    }
+}

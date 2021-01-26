@@ -27,7 +27,7 @@
     }
     &-left{
         
-            margin-left: 4rem;
+            margin-right: 4rem;
             .box{
             border-radius: 50%;
             box-shadow: 8px 2px 20px black;
@@ -41,4 +41,22 @@
             
         }
     }
+}
+
+@media(max-width:750px){
+    .container{
+        
+        flex-direction: column-reverse;
+        margin:0 auto;
+
+        &-left{
+            margin-right: 0;
+            img{
+                width: 20rem;
+                height: 20rem;
+            }
+        }
+    }
+
+
 }
