@@ -1,15 +1,18 @@
+@import "./animation/right";
+
 .project{
    
     &-img{
-    
+        
         margin:0 auto;
         display: flex;
         justify-content: center;
         align-items: center;
         height: 100vh;
         .img-logo{
-            width: 40rem;
-            height: 35rem;
+            animation:right 4.2s;
+            width: 45rem;
+            height: 30rem;
             margin: 0 auto; 
         }
     }
