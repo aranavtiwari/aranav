@@ -201,7 +201,30 @@ body {
 .container-right-text {
   font-size: 2rem;
   list-style-type: none;
-  line-height: 3rem;
+  line-height: 2.5rem;
+}
+
+.container-right-text .link-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #8d919d;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-transition: all 0.9s;
+  transition: all 0.9s;
+  width: 200px;
+}
+
+.container-right-text .link-box a {
+  color: #8d919d;
+  font-size: 2.2rem;
+}
+
+.container-right-text .link-box a:hover {
+  color: #db647b;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 .container-right-text:not(:last-child) {
@@ -237,6 +260,7 @@ body {
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
     margin: 8rem 0rem auto;
+    padding-bottom: 10rem;
   }
   .container-left {
     margin-right: 0;

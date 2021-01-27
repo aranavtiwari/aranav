@@ -49,7 +49,18 @@ function Home() {
                         <li className="container-right-text">
                             I prefer to listen and think,<br/> watch and learn
                         </li>
+                        <li className="container-right-text">
+
+                            <div className="link-box">
+                              <a href="https://github.com/aranavtiwari?tab=repositories"><i class="fab fa-github"></i></a>
+                              <a href="https://www.linkedin.com/in/aranavsheel-tiwari-93bb96204/"><i class="fab fa-linkedin"></i></a>
+                              <a href="mailto:aranavstiwari@gmail.com"><i class="far fa-envelope"></i></a>
+                              <a href="#"><i class="fab fa-behance"></i></a>
+                            </div>
+                        </li>
+
                     </ul>
+                    
                 </div>
                 <div className="container-left">
                     
