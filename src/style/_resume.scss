@@ -1,0 +1,37 @@
+.resume-botton{
+    display: flex;
+    max-width: 400px;
+    margin: 0 auto;
+    padding-bottom: 20rem;
+    margin-bottom: 10rem;
+    align-items: center;
+    justify-content: center;
+    .resume-link{
+
+
+
+        a{  
+            justify-content: center;
+            text-decoration: none;
+            padding: 1.8rem 2.5rem;
+            color: $text-color;
+            background-color: #1a1d2c;
+            border-radius: 5rem;
+            transition: all .3s ;
+            display: block;
+            font-size: 2.2rem;
+            font-weight: 400;
+
+            &:hover{
+                color: $nav-link;
+                transform: scale(1.1);
+                text-shadow: 0px 0px 10px $nav-link;
+                box-shadow: 0px 5px 20px black;
+            }   
+
+            .fas{
+                margin-right: 1rem;
+            }
+        }
+    }
+}

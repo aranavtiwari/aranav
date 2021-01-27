@@ -22,6 +22,8 @@ function Home() {
     scale: 1.3,
     speed: 7000,
     max: 24,
+    gyroscope: false, 
+
     
   };
 

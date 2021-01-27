@@ -1,6 +1,10 @@
 import React, { useEffect, useRef } from "react";
 import Nav from './Nav'
-import img from "../img/projectlogo.png";
+import imgone from '../img/worldaffairlogo.svg';
+import imgtwo from '../img/webpandlogo.svg';
+import imgthree from '../img/eventlogo.svg';
+
+
 import VanillaTilt from "vanilla-tilt";
 
 function Tilt(props) {
@@ -16,43 +20,69 @@ function Tilt(props) {
   
 
 
-
-
-
 const Projects = () => {
 
     const options = {
         speed: 7000,
-      scale: 1.2,
-      max: 30,  
+      scale: 2.4,
+      max: 30,
+      gyroscope: false, 
+
  }
 
- //const projectName = [
-   // {class:"float-right", img:pone, heading:"World Affair", description:"I design the user experience and then style the user interface myself for almost all of the projects I work on.I am flexible in medium and rigid in quality."},
-    //{ direction:"reverse", class:"float-left", img:ptwo, heading:"Web Panda", description:" Have experience in React, Next and HTML5/CSS/JS along with several templating systems.I prefer to write my own components, and styles that go with it. I want to have absolute control over all the pixels." },
-   // {class:"float-right",  img:pthree, heading:"MinmaxTT", description:"While I obsess over frontend, I also recognize that a lot of the functionality of an app is enabled by it's backend.I have worked with NodeJs,Exprss and MongoDB for backend, with databases, APIs, request handling, etc."},
-   // { direction:"reverse", class:"float-left", img:pfour, heading:"General Programming", description:"Given my curious mindset, I have tested the waters of various fields: Databases, Scripting, Web Scraping, DS, Micro-services, CLI tools to name a few.The core of it all is the basic principle of identifying the problem and testing multiple focused approaches till I figure out the optimum solution."}
- //]
+ const projectName = [
+    { weblink:"https://aranavtiwari.github.io/WA/", gitlink:"https://github.com/aranavtiwari/WA", link:"linkweb", iconweb:"fas fa-globe", nameweb:"Web App" ,icongit:"fab fa-github",gitname:"Github Org" , class:"float-right", img:imgone, heading:"World Affair", description:`World Affair is Webapp where you can find most underrated news around the world.\
+                                                                             I designed and developed the frontend with React/Sass from scratch `},
+    {iconweb:"fas fa-globe", nameweb:"Web App", weblink:"https://webpanda.netlify.app/" ,icongit:"fab fa-github", gitname:"Github Org", gitlink:"https://github.com/aranavtiwari/ast-website",link:"linkweb", rolecss:"role",   role:"Freelance Frontend",  direction:"reverse", class:"float-left", img:imgtwo, heading:"Web Panda", description:"Web Panda was a startup which offers web development service to their client with source code.\
+                                                                                            I worked on the landing page and the entire website from scratch. I utilized react-static to generate static pages with instant navigation. I also organized Design Sprints to target specific audiences, started from scratch with UI/UX to develop a unique brand identity for the company. Made personalized icons. illustrations, animations, etc." },
+    {iconweb:"fas fa-globe", nameweb:"Web App", weblink:"#" ,icongit:"fab fa-github", gitname:"Github Org", gitlink:"https://github.com/aranavtiwari/Events-MERN",link:"linkweb",   class:"float-right ",  img:imgthree, heading:"Events", description:"Events is a platform where you can views other's personal event's or memories, and you can also share your events and memories.You can give like if you like any events."},
+   
+ ];
 
 
-    return (
-        <div>
-            <Nav/>
-            <div className="project">
-                <div className="project-img">
-                <Tilt className="box" options={options} >
-                <h1 className="logo">Projects</h1>
-                   <p className="logo-des">The work stuff!</p>
-                </Tilt> 
-                </div>
-                <di>
-                    hello 
-                </di>
-                
+ const projectShow = () => {
+  return projectName.map((data) => {
+      console.log(data.img)
+      return (
+          <div className="project" id={data.direction}>
+              <div className="project-left">
+                 
+                 <h1 className={data.class}>{data.heading}</h1>
+                 <h2 className={data.rolecss}>{data.role}</h2>
+                  
+                  <p className={data.class}>{data.description}</p>
 
-            </div>
-        </div>
-    )
+                  <div className="link">
+                  <a href={data.weblink} className={data.link}><i class={data.iconweb}/>{data.nameweb}</a>
+                  <a href={data.gitlink} className={data.link}><i class={data.icongit}/>{data.gitname}</a>
+                  </div>
+              </div>
+              <div className="project-right">
+                  <img src={data.img} className="img" />
+              </div>
+          </div>
+      )
+  })
+}
+
+return (
+  <div>
+      <Nav/>
+      <div className="project-container">
+          <div className="img-skill">
+          <Tilt className="box" options={options} >
+             <h1 className="logo">Projects <span>{}</span> </h1>
+             <p className="logo-des">The work stuff!</p>
+          </Tilt> 
+          </div>
+          <div className="project-outer">
+              {projectShow()}
+          </div>
+
+      </div>
+  </div>
+)
+    
 }
 
 export default Projects;

@@ -23,8 +23,9 @@ const Resume = () => {
 
     const options = {
         speed: 7000,
-      scale: 1.2,
-      max: 30,  
+      scale: 1.5,
+      max: 30, 
+      gyroscope: false, 
  }
 
  //const projectName = [
@@ -38,19 +39,20 @@ const Resume = () => {
     return (
         <div>
             <Nav/>
-            <div className="project">
-                <div className="project-img">
+            <div className="project-container">
+              <div className="img-skill">
                 <Tilt className="box" options={options} >
-                   <h1 className="logo">Resume</h1>
-                   <p className="logo-des">The 1 document that apparently matter</p>
+                  <h1 className="logo">Resume <span>{}</span> </h1>
+                  <p className="logo-des">The 1 document that (apparently) matters</p>
                 </Tilt> 
-                </div>
-                <di>
-                    hello 
-                </di>
-                
-
+               </div>
+            <div className="resume-botton">
+              <div className="resume-link">
+              <a href=""><i class="fas fa-download"></i>Download Resume</a>
+              </div>
+             
             </div>
+          </div>
         </div>
     )
 }

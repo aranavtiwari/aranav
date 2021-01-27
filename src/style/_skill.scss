@@ -17,7 +17,14 @@
             border-radius: 50%;
             
             .logo{
-                text-align: center;
+                    text-align: center;
+                    background: linear-gradient(to right,#4F45C5
+                    0%, #DC097B 100%);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    font-size: 8rem;
+
+
                 &-des{
                     text-align: center;
                 }

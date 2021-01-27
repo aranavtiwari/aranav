@@ -22,7 +22,7 @@ function Tilt(props) {
   function Skill() {
     const options = {
         speed: 7000,
-      scale: 1.3,
+      scale:2.4,
       max: 30,
       
  };
@@ -61,7 +61,7 @@ function Tilt(props) {
                 <div className="img-skill">
                 <Tilt className="box" options={options} >
                    <h1 className="logo">Skills</h1>
-                   <p className="logo-des">The tool that matter!</p>
+                   <p className="logo-des">The tool for trade!</p>
                 </Tilt> 
                 </div>
                 <div className="skill-outer">
