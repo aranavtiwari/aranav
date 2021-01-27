@@ -24,6 +24,7 @@ function Tilt(props) {
         speed: 7000,
       scale:2.4,
       max: 30,
+      gyroscope: false,
       
  };
 
