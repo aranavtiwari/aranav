@@ -22,7 +22,7 @@ function Tilt(props) {
   function Skill() {
     const options = {
         speed: 7000,
-      scale:2.4,
+      scale:2.2,
       max: 30,
       gyroscope: false,
       

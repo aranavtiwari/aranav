@@ -284,6 +284,11 @@ body {
   }
 }
 
+.skill-container {
+  -webkit-animation: right 2s;
+          animation: right 2s;
+}
+
 .skill-container .img-skill {
   margin: 0 auto;
   display: -webkit-box;
@@ -300,14 +305,13 @@ body {
 
 .skill-container .img-skill .box {
   border-radius: 50%;
-  -webkit-animation: right 3s;
-          animation: right 3s;
 }
 
 .skill-container .img-skill .box .logo {
   text-align: center;
   background: -webkit-gradient(linear, left top, right top, from(#4F45C5), to(#DC097B));
   background: linear-gradient(to right, #4F45C5 0%, #DC097B 100%);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 8rem;
@@ -455,6 +459,11 @@ body {
   }
 }
 
+.project-container {
+  -webkit-animation: right 2s;
+          animation: right 2s;
+}
+
 .project-container .img-skill {
   margin: 0 auto;
   display: -webkit-box;
@@ -471,14 +480,13 @@ body {
 
 .project-container .img-skill .box {
   border-radius: 50%;
-  -webkit-animation: right 3s;
-          animation: right 3s;
 }
 
 .project-container .img-skill .box .logo {
   text-align: center;
   background: -webkit-gradient(linear, left top, right top, from(#4F45C5), to(#DC097B));
   background: linear-gradient(to right, #4F45C5 0%, #DC097B 100%);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 8rem;
