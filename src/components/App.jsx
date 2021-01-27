@@ -5,7 +5,7 @@ import Home from './Home';
 import Projects from './Projects';
 import Resume from './Resume';
 import Skill from './Skill';
-
+import Random from './Random';
 
 
  const App = () => {
@@ -17,6 +17,7 @@ import Skill from './Skill';
             <Route path="/projects" exact component={Projects} />
             <Route path="/resume" exact component={Resume} />
             <Route path="/skill" exact component={Skill} />
+            <Route path="/random" exact component={Random}/> 
             </Switch>
         </div>
         

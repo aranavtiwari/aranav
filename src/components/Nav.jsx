@@ -21,6 +21,7 @@ function Nav() {
                 <Link to="/projects" className="link">Projects</Link>
                 <Link to="/skill" className="link">Skills</Link>
                 <Link to="/resume" className="link">Resume</Link>
+                <Link to="/random" className="link">Random</Link>
             </div>
             
         </div>
