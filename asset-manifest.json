@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/aranav/static/css/main.e92c6d72.chunk.css",
-    "main.js": "/aranav/static/js/main.a864fc01.chunk.js",
-    "main.js.map": "/aranav/static/js/main.a864fc01.chunk.js.map",
+    "main.js": "/aranav/static/js/main.511877c2.chunk.js",
+    "main.js.map": "/aranav/static/js/main.511877c2.chunk.js.map",
     "runtime-main.js": "/aranav/static/js/runtime-main.4f33a587.js",
     "runtime-main.js.map": "/aranav/static/js/runtime-main.4f33a587.js.map",
     "static/js/2.ba82a935.chunk.js": "/aranav/static/js/2.ba82a935.chunk.js",
@@ -25,6 +25,6 @@
     "static/js/runtime-main.4f33a587.js",
     "static/js/2.ba82a935.chunk.js",
     "static/css/main.e92c6d72.chunk.css",
-    "static/js/main.a864fc01.chunk.js"
+    "static/js/main.511877c2.chunk.js"
   ]
 }
