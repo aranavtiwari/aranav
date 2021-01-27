@@ -8,22 +8,14 @@ function Nav() {
         return setSelect(!select)
     }
 
-    const show = () => {
-        if(select){
-            return "hide";
-            console.log("hide")
-        }
-        console.log("show")
-        return "show";
-    }
-
     return (
-        <div className="nav">
-
-            <div className="check" onClick={() => click()}>
-                <i className={select ? "fas fa-times" : "fas fa-bars"}></i>
+        < >
+            <div className="name" onClick={() => click()}>
+                <div className="name-a">
+                    <i className="fa fa-bars"/> S<span className="y">Y</span>NOX
+                </div>
             </div>
-
+        <div className="nav">
             <div className={select ? "nav-link" : "hide nav-link"}>
                 <Link to="/" className="link">Home</Link>
                 <Link to="/projects" className="link">Projects</Link>
@@ -32,6 +24,7 @@ function Nav() {
             </div>
             
         </div>
+        </>
     )
 }
 
@@ -39,3 +32,9 @@ function Nav() {
 //select ? " show nav-link" : "hide nav-link"}
 
 export default Nav
+
+//<div className="check">
+//<i className={select ? "fas fa-times" : "fa fa-bars"}></i>
+//</div>
+
+//<div className={select ? "nav-link" : "hide nav-link"}>

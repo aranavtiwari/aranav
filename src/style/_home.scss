@@ -45,9 +45,9 @@
 
 @media(max-width:750px){
     .container{
-        
+        animation: right 1s;
         flex-direction: column-reverse;
-        margin:0 auto;
+        margin:8rem 0rem auto;
 
         &-left{
             margin-right: 0;

@@ -41,7 +41,8 @@ const Resume = () => {
             <div className="project">
                 <div className="project-img">
                 <Tilt className="box" options={options} >
-                   <img src={img} alt="" className="img-logo"/>
+                   <h1 className="logo">Resume</h1>
+                   <p className="logo-des">The 1 document that apparently matter</p>
                 </Tilt> 
                 </div>
                 <di>

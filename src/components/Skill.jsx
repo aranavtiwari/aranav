@@ -60,7 +60,8 @@ function Tilt(props) {
             <div className="skill-container">
                 <div className="img-skill">
                 <Tilt className="box" options={options} >
-                   <img src={img} alt="" className="img"/>
+                   <h1 className="logo">Skills</h1>
+                   <p className="logo-des">The tool that matter!</p>
                 </Tilt> 
                 </div>
                 <div className="skill-outer">

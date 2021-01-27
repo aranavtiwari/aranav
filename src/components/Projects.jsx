@@ -41,7 +41,8 @@ const Projects = () => {
             <div className="project">
                 <div className="project-img">
                 <Tilt className="box" options={options} >
-                   <img src={img} alt="" className="img-logo"/>
+                <h1 className="logo">Projects</h1>
+                   <p className="logo-des">The work stuff!</p>
                 </Tilt> 
                 </div>
                 <di>

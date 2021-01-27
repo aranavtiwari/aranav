@@ -12,13 +12,13 @@
 
         .box{
             border-radius: 50%;
-        }
 
-        .img-logo{
-            animation:right 4.2s;
-            width: 45rem;
-            height: 30rem;
-            margin: 0 auto; 
+            .logo{
+                text-align: center;
+                &-des{
+                    text-align: center;
+                }
+            }
         }
     }
 }

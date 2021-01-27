@@ -16,14 +16,15 @@
         .box{
             border-radius: 50%;
             
+            .logo{
+                text-align: center;
+                &-des{
+                    text-align: center;
+                }
+            }
+            
         }
 
-        .img{
-            animation:right 4.2s;
-            width:45rem;
-            height: 40rem;
-            margin:0 auto;
-        }
     }
 
     .skill-outer{
@@ -104,6 +105,7 @@
         .skill{
             flex-direction: column-reverse;
             max-width: 600px;
+            padding: 2rem 3rem;
             &-left{
                 
                 width: 100%;

@@ -33,6 +33,7 @@ body {
   transition: all 0.3s ease;
   -webkit-box-shadow: 0px 2px 20px rgba(7, 7, 7, 0.692);
           box-shadow: 0px 2px 20px rgba(7, 7, 7, 0.692);
+  z-index: 6000000;
 }
 
 .nav-link {
@@ -62,11 +63,40 @@ body {
   text-shadow: 0px 0px 10px red;
 }
 
-.nav .check {
+.name {
   display: none;
 }
 
 @media (max-width: 770px) {
+  .name {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: fixed;
+    background-color: #171926;
+    width: 280px;
+    left: 50%;
+    top: 3rem;
+    margin-left: -150px;
+    cursor: pointer;
+    padding: 1rem;
+    border-radius: 2rem;
+    z-index: 600000000000000000000;
+  }
+  .name-a {
+    font-size: 2rem;
+    margin-left: 2rem;
+    letter-spacing: 1.3rem;
+  }
+  .name-a i {
+    margin-right: 1rem;
+  }
+  .name-a .y {
+    display: inline-block;
+    -webkit-transform: translateY(0.4rem) rotate(90deg);
+            transform: translateY(0.4rem) rotate(90deg);
+    margin: 0rem 0.8rem 0rem -0.5em;
+  }
   .nav {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -74,15 +104,17 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    position: relative;
-    left: 0;
-    top: 2rem;
-    margin-left: 0;
-    margin: 3rem auto;
-    width: 80%;
-    border-radius: 2rem;
+    position: fixed;
+    width: 280px;
+    left: 50%;
+    top: 5rem;
+    margin-left: -150px;
+    padding: 1rem;
     -webkit-transition: none;
     transition: none;
+    padding-top: 0;
+    background-color: transparent;
+    height: 0px;
   }
   .nav:hover {
     padding-top: 0;
@@ -92,10 +124,16 @@ body {
     -webkit-box-direction: normal !important;
         -ms-flex-direction: column !important;
             flex-direction: column !important;
+    background-color: #171926;
+    margin-top: 5rem;
+    border-radius: 1.5rem;
+    padding: 4rem 0rem;
+    border: 1px solid rgba(139, 144, 156, 0.445);
   }
   .nav-link .link {
+    font-size: 2.6rem;
     margin-bottom: 2rem;
-    padding: 1rem;
+    padding: 1rem 0rem;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -105,6 +143,7 @@ body {
     margin: 0 auto;
     -webkit-transition: none;
     transition: none;
+    color: #8d919d;
   }
   .nav .hide {
     display: none !important;
@@ -191,11 +230,13 @@ body {
 
 @media (max-width: 750px) {
   .container {
+    -webkit-animation: right 1s;
+            animation: right 1s;
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
-    margin: 0 auto;
+    margin: 8rem 0rem auto;
   }
   .container-left {
     margin-right: 0;
@@ -237,12 +278,12 @@ body {
   border-radius: 50%;
 }
 
-.skill-container .img-skill .img {
-  -webkit-animation: right 4.2s;
-          animation: right 4.2s;
-  width: 45rem;
-  height: 40rem;
-  margin: 0 auto;
+.skill-container .img-skill .box .logo {
+  text-align: center;
+}
+
+.skill-container .img-skill .box .logo-des {
+  text-align: center;
 }
 
 .skill-container .skill-outer {
@@ -330,6 +371,7 @@ body {
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
     max-width: 600px;
+    padding: 2rem 3rem;
   }
   .skill-container .skill-left {
     width: 100%;
@@ -400,12 +442,12 @@ body {
   border-radius: 50%;
 }
 
-.project-img .img-logo {
-  -webkit-animation: right 4.2s;
-          animation: right 4.2s;
-  width: 45rem;
-  height: 30rem;
-  margin: 0 auto;
+.project-img .box .logo {
+  text-align: center;
+}
+
+.project-img .box .logo-des {
+  text-align: center;
 }
 
 @media (max-width: 750px) {
