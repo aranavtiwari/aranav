@@ -300,6 +300,8 @@ body {
 
 .skill-container .img-skill .box {
   border-radius: 50%;
+  -webkit-animation: right 3s;
+          animation: right 3s;
 }
 
 .skill-container .img-skill .box .logo {
@@ -469,6 +471,8 @@ body {
 
 .project-container .img-skill .box {
   border-radius: 50%;
+  -webkit-animation: right 3s;
+          animation: right 3s;
 }
 
 .project-container .img-skill .box .logo {
