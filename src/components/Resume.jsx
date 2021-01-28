@@ -48,7 +48,7 @@ const Resume = () => {
                </div>
             <div className="resume-botton">
               <div className="resume-link">
-              <a href="https://doc-0o-cc-docs.googleusercontent.com/docs/securesc/8q6ctuhsjnra7otg3a9dg2p3dmma393l/mi6jjm5q917gnfj6baqdgm2pqho3q44n/1611797475000/07272075861372913766/07272075861372913766/18lQRjWqI6F4_-BhA2m3-ZnFGl_lofUlG?e=download&authuser=1&nonce=1jiuhvbt2etki&user=07272075861372913766&hash=kkfbugjkm9nish7i88ltl5hkjjmr1gvt"><i class="fas fa-download"></i>Download Resume</a>
+              <a href="https://drive.google.com/file/d/18lQRjWqI6F4_-BhA2m3-ZnFGl_lofUlG/view?usp=sharing"><i class="fas fa-download"></i>Download Resume</a>
               </div>
              
             </div>
