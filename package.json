@@ -1,6 +1,6 @@
 {
   "name": "final",
-  "homepage": "https://aranavtiwari.github.io/arnavs",
+  "homepage": "https://aranavtiwari.github.io",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
