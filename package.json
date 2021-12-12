@@ -1,6 +1,6 @@
 {
-  "name": "final",
-  "homepage": "https://aranavtiwari.github.io/aranav",
+  "name": "aranav",
+  "homepage": "https://aranavtiwari.github.io/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
